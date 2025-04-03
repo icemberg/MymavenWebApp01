@@ -1,7 +1,6 @@
 ---
 - name: Deploy to Tomcat
   hosts: web
-  become: yes
   tasks:
     - name: Copy WAR file to Tomcat
       copy:
